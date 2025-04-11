@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class WebRest {
 	@GetMapping("/")
 	public String getMethodName() {
-		return "hello";
+		return "Hello, My name is Harish and This is my first Rest Application";
 	}
 	
 }
